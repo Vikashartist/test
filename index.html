@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Future of Attendance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  *{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+   
+    
+  }
+  .navbar{
+    font-family: "Roboto Mono", serif;
+    width:100wh;
+    height:60px;
+    background-color:black;
+    border:1px solid red;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-left:10px;
+    padding-right:10px;
+  }
+  .logo-cont{
+    width:160px;
+    height:50px;
+    background-color:red;
+  }
+  .more-cont{
+   
+    height:50px;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+  }
+  .nv-more{
+    user-select:none;
+      height:36px;
+      border-radius:6px;
+      background-color:transparent;
+      color:white;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:8px 12px;
+      font-size:14px;
+     transition: 0.3s ease-in-out;
+  }
+.nv-more:hover{
+  border-bottom: 1px solid black;
+  font-weight:bold;
+ 
+ 
+}
+  #nv-explore{
+    
+  
+  }
+  #nv-aboutus{
+   
+  }
+  #nv-documentation{
+    
+   
+  }
+  #nv-contact{
+    
+   
+  }
+
+
+.hero-cont{
+  /* top:0;
+  left:0; */
+  width:100%;
+  height:440px;
+background-color:lightblue;
+background-image:url("/cyber-security-3374252_1280.jpg");
+background-size:cover;
+/* filter:blur(20px); */
+filter:brightness(70%);
+  display:flex;
+  align-items:end;
+  justify-content:center;
+  position:absolute;
+  background-position:center;
+}
+.he-txt-1{
+ transform:translate(25%,38%);
+  width:70%;
+  position:relative;
+z-index:1;
+ height:300px;
+  background-color:transparent;
+}
+.the{
+  height:52px;
+  background-color:transparent;
+  color:white;
+  -webkit-text-stroke: 1px green;
+ /*  border:1px solid white; */
+  font-size:32px;
+  font-weight:bold;
+/*   font-family: "Playwrite IN", serif; */
+   font-family: "Poppins", serif;
+   text-transform:capitalize;
+   padding-left:20px;
+   letter-spacing:3px;
+  
+}
+.future{
+  background-color:transparent;
+  height:80px;
+  padding:0px;
+  padding-left:20px;
+  color:white;
+  /* border:1px solid white; */
+  font-size:58px;
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-family: "Poppins", serif;
+  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-shadow: 1px 2px 2px black;
+}
+.sss{
+    height:58px;
+  background-color:transparent;
+  
+  /* border:1px solid white; */
+  font-size:28px;
+  font-weight:bolder;
+  /*   font-family: "Playwrite IN", serif; */
+
+  text-transform:capitalize;
+  padding-left:20px;
+  letter-spacing:2px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+}
+  
+
+        .sss-txt {
+           /*  border-right: 6px solid transparent; */
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            animation: blink 0.1s step-end infinite alternate;
+            font-size:36px;
+            font-weight:bold;
+            font-family: "Special Elite", serif;
+            letter-spacing:2px;
+            color:#baf4ff;
+        }
+
+        @keyframes blink {
+            from {
+               /*  border-color: white; */
+                border-width: 6px;
+               
+            }
+            to {
+              /*   border-color: transparent; */
+                border-width: 6px;
+                
+            }
+        }
+        .hero-txt-desc{
+          color:black;
+          background-color:grey;
+          filter:blur();
+          padding:0px 20px;
+          line-height:20px;
+          font-family: "Karla", serif;
+          
+        }
+        .space{
+          height:100px;
+        }
+</style>
+
+<body>
+  <!-- navigation bar section -->
+    <div class="navbar">
+         <div class="logo-cont"></div>
+         
+           
+         
+         <div class="more-cont">
+           <div id="nv-explore" class="nv-more">Explore</div>
+           <div id="nv-aboutus" class="nv-more">About us</div>
+           <div id="nv-documentation" class="nv-more">Documentation</div>
+           <div id="nv-contact" class="nv-more">Contact</div>
+         </div>
+           
+         
+    </div>
+    
+<!--     main hero section -->
+<div class="hero-cont">
+
+</div>
+   <div class="he-txt-1">
+    <div class="the">
+      The
+    </div>
+
+    <div class="future">
+      Future of Attendance
+    </div>
+    <div class="sss">
+      <span class="sss-txt" id="typing"></span>
+    </div>
+    <div class="hero-txt-desc">
+      Revolutionize the way attendance is marked with our advanced Face Recognition Attendance System. Leveraging state-of-the-art facial recognition technology, this system provides a seamless and secure way to manage attendance.
+    </div>
+
+    <div class="space">
+
+    </div>
+  </div> 
+  <script src="main.js"></script>
+  
+<!--   script for typing effect -->
+   <script>
+   const texts = ["Simple", "Secured", "Smart"];
+   let currentTextIndex = 0;
+   let currentCharIndex = 0;
+   let isDeleting = false;
+   const typingSpeed = 150;
+   const deletingSpeed = 100;
+   const delayBetweenTexts = 1000;
+
+   function type() {
+     const typingElement = document.getElementById('typing');
+     let currentText = texts[currentTextIndex];
+     if (isDeleting) {
+       typingElement.textContent = currentText.substring(0, currentCharIndex--);
+       if (currentCharIndex < 0) {
+         isDeleting = false;
+         currentTextIndex = (currentTextIndex + 1) % texts.length;
+         setTimeout(type, typingSpeed);
+         return;
+       }
+       setTimeout(type, deletingSpeed);
+     } else {
+       typingElement.textContent = currentText.substring(0, currentCharIndex++);
+       if (currentCharIndex > currentText.length) {
+         isDeleting = true;
+         setTimeout(type, delayBetweenTexts);
+         return;
+       }
+       setTimeout(type, typingSpeed);
+     }
+   }
+
+   type();
+ </script>
+</body>
+</html>
